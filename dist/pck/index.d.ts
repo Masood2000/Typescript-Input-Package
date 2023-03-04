@@ -1,0 +1,1 @@
+export { inputInt } from "./input";

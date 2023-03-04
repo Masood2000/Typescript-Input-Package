@@ -1,19 +1,20 @@
 {
   "name": "masood2000_input",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "",
-  "main": "index.js",
-  "type": "module",
-  "bin": {
-    "masood2000_input": "bin/index.js"
-  },
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "/dist"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "prompt-sync": "^4.2.0"
+    "prompt-sync": "^4.2.0",
+    "typescript": "^4.9.5"
   },
   "devDependencies": {
     "@types/prompt-sync": "^4.2.0"
